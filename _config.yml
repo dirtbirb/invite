@@ -1,0 +1,13 @@
+# Site settings
+title: "Come to our wedding!"
+description: "Emma Lodes & David Matthews, June 6 2026"
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts

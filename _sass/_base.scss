@@ -1,0 +1,115 @@
+// Base styles
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  background: $darksky;
+}
+
+body {
+  @include sans;
+  color: $text-color;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  @include transition(color $x-time);
+  color: $sky;
+  text-decoration: none;
+
+  &:hover {
+    color: $pink;
+  }
+}
+
+details[open] {
+
+  // Rotating triangle
+  & summary:before {
+    transform: rotate(180deg);
+  }
+
+  // Fade-in
+  & summary~* {
+    animation: sweep $x-time $x-ease;
+  }
+}
+
+summary {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+
+  // Rotating triangle
+  &:before {
+    @include transition($x-time);
+    content: '🛆';
+    color: $sky;
+    font-size: 16pt;
+    transform: rotate(90deg);
+  }
+
+  &:hover:before {
+    color: $pink;
+  }
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+.wrapper:before,
+.wrapper:after {
+  content: '';
+  display: table;
+}
+
+.wrapper:after {
+  clear: both;
+}
+
+.wrapper {
+  @include border-radius(10px);
+  background: $gray;
+  max-width: 800px;
+  padding: 0 24px;
+  margin: 24px auto;
+  zoom: 1;
+}
+
+// clearfix (now called group,
+// via http://css-tricks.com/snippets/css/clear-fix/)
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+// For IE 6/7 (trigger hasLayout)
+.group {
+  zoom: 1;
+}
+
+::-moz-selection {
+  background: $white;
+  color: $black;
+  text-shadow: none;
+}
+
+::selection {
+  background: $white;
+  color: $black;
+  text-shadow: none;
+}

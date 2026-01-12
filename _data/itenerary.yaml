@@ -1,0 +1,32 @@
+- time: "June 6th, 12 PM"
+  title: "Setup and early arrival"
+  description: "Check-in at the lodge to sign the required waiver. No one is allowed in before this!"
+
+- time: "3 PM"
+  title: "Ceremony"
+  description: "Make your way to the altar meadow by this time! Assistance will be provided for the walk if needed."
+
+- time: "4 PM"
+  title: "Reception"
+  description: "Appetizers, drinks, & activities: Explore the venue (on foot or on bike), open mic style music, lawn games, guest book crafting, etc!"
+
+- time: "7 PM"
+  title: "Dinner"
+  description: "Pizza, appetizers, salad, and cake. All options are vegetarian or vegan. Gluten-free pizza and cake-substitute available."
+
+- time: "8 PM"
+  title: "Party"
+  description: "Dancing and whatever! Just don't hurt yourself. There will be bonfire if fire restrictions allow."
+
+- time: "10 PM"
+  title: "Gate closes"
+  description: "Don't worry; you can still come and go, and there are no quiet hours in the middle of nowhere. You'll just have to ask for the key after this time."
+
+- time: "June 7th, 8 AM"
+  title: "Wake up (please)"
+  description: "Simple breakfast (coffee, bagels, fruit), pack up for check out."
+
+- time: "10 AM"
+  title: Mandatory check-out
+  description: "We have to be cleaned up and out of the way by 10 or else we get charged!"
+

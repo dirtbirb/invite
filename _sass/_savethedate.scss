@@ -1,0 +1,50 @@
+// Header
+.page-header {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.names {
+  @include serif_bold;
+  font-size: 2.5rem;
+}
+
+// Content
+.page-content {
+  @include sans_regular;
+  margin-bottom: 1.5rem;
+}
+
+.rsvp {
+  border: 5px solid #d57530;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.text {
+  text-align: center;
+}
+
+.save-text {
+  margin-bottom: 1.5rem;
+}
+
+.caption {
+  text-align: right;
+  font-size: 12px;
+  margin: 0 5% 1.5rem;
+}
+
+.random-pic {
+  @include border-radius(10px);
+  width: 90%;
+  margin: 0 5% 0 5%;
+}
+
+.calendars {
+  display: block;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}

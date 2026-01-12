@@ -1,0 +1,9 @@
+<script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+<div class="pa-carousel-widget" style="width:1; aspect-ratio:1.5"
+    data-link="https://photos.app.goo.gl/k2fhVC89b2huY2dVA" data-title=""
+    data-description="Proposal album · Tap to view!" data-background-color="#333333">
+    {% for url in site.data.photos %}<object data="{{ url }}=w752-h501"></object>{% endfor %}
+</div>
+<a href="https://www.instagram.com/guzbikes/">
+    <p class="caption">Photo credit: Ryan Guzy</p>
+</a>
